@@ -1,0 +1,8 @@
+:root {
+  --main-color: #2563eb;
+  --space: 16px;
+  --font-size: 18px;
+}
+body { font-family: Arial, sans-serif; padding: var(--space); font-size: var(--font-size); }
+h1 { color: var(--main-color); }
+button { background: var(--main-color); color: white; padding: 10px; border: 0; }

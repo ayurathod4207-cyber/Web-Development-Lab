@@ -1,0 +1,6 @@
+body { font-family: Arial; margin: 20px; }
+nav { display: flex; justify-content: space-between; align-items: center; }
+a { margin: 5px; }
+.cards { display: flex; gap: 15px; flex-wrap: wrap; }
+article { background: lightblue; padding: 30px; flex: 1 1 150px; }
+@media (max-width: 600px) { nav { flex-direction: column; } }

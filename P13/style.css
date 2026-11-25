@@ -1,0 +1,5 @@
+body { font-family: Arial; margin: 20px; }
+header { display: flex; justify-content: space-between; align-items: center; }
+.grid { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; }
+section, aside { background: #eeeeee; padding: 20px; }
+@media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }

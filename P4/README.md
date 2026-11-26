@@ -1,15 +1,24 @@
-# P4: GitHub README and version tags
 
-**Aim:** Write project information in README and create a version tag.
+# Web Development Practicals
 
-**Steps / Commands:**
+## About
+This repository contains 13 Web Development practicals.
 
-```bash
-git add README.md
-git commit -m "Add README"
-git tag v1.0
-git push origin main
-git push origin v1.0
-```
+## Modules
+- Module 1: Terminal, Git and GitHub
+- Module 2: HTML and CSS Foundations
+- Module 3: CSS Layout Systems
 
-**Result:** The practical is completed successfully.
+## Technologies
+- HTML5
+- CSS3
+- Git
+- GitHub
+- VS Code
+
+## Author
+Your Name
+
+## Academic Year
+2026
+

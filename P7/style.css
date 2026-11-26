@@ -1,8 +1,42 @@
+
 :root {
-  --main-color: #2563eb;
-  --space: 16px;
-  --font-size: 18px;
+    --primary-color: #2563eb;
+    --secondary-color: #1e293b;
+    --background-color: #f1f5f9;
+    --text-color: #334155;
+
+    --small-space: 8px;
+    --medium-space: 16px;
+    --large-space: 32px;
+
+    --main-font: Arial, sans-serif;
 }
-body { font-family: Arial, sans-serif; padding: var(--space); font-size: var(--font-size); }
-h1 { color: var(--main-color); }
-button { background: var(--main-color); color: white; padding: 10px; border: 0; }
+
+body {
+    font-family: var(--main-font);
+    background: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+}
+
+header {
+    background: var(--secondary-color);
+    color: white;
+    padding: var(--large-space);
+    text-align: center;
+}
+
+.card {
+    background: white;
+    margin: var(--large-space);
+    padding: var(--large-space);
+    border-radius: 12px;
+}
+
+button {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: var(--medium-space);
+    border-radius: 6px;
+}

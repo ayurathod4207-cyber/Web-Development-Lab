@@ -1,6 +1,43 @@
-body { font-family: Arial; margin: 0; }
-nav { position: sticky; top: 0; background: navy; color: white; padding: 15px; }
-main { padding: 20px; }
-.card { position: relative; width: 300px; border: 1px solid #ccc; padding: 10px; }
-.card img { width: 100%; }
-.tag { position: absolute; top: 5px; right: 15px; background: orange; padding: 5px; }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background: #172554;
+    color: white;
+    padding: 15px;
+    z-index: 10;
+}
+
+.navbar a {
+    color: white;
+    margin: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.card {
+    position: relative;
+    max-width: 600px;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px;
+}

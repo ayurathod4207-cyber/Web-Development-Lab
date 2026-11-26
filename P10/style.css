@@ -1,5 +1,61 @@
-body { font-family: Arial; margin: 0; }
-header, footer { display: flex; justify-content: space-between; align-items: center; background: #eeeeee; padding: 20px; }
-nav { display: flex; gap: 15px; }
-main { padding: 30px; }
-footer { justify-content: center; }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: #172554;
+    color: white;
+}
+
+.header nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header a,
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.header button {
+    padding: 10px 20px;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+main {
+    flex: 1;
+    padding: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: #172554;
+    color: white;
+}
+
+.footer div {
+    display: flex;
+    gap: 15px;
+}
